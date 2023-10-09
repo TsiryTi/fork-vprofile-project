@@ -6,7 +6,7 @@ spec:
   ports:
   - port: 443
     targetPort: vproapp-port
-    protocol: HTTPS
+    protocol: TCP
   selector:
     app: vproapp
   type: LoadBalancer
